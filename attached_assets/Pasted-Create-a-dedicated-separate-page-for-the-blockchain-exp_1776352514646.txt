@@ -1,0 +1,82 @@
+Create a dedicated separate page for the blockchain explorer, NOT inside the homepage.
+
+PROJECT STRUCTURE:
+- Keep the homepage focused on branding, hero section, product overview, features, roadmap, and CTA
+- Add the explorer as its own standalone page
+- Route example:
+  /explorer
+- The homepage should have a clear button in the navbar and hero section:
+  "Open Explorer"
+
+GOAL:
+Build a professional blockchain explorer page for "SpudChain" inspired by BscScan, Etherscan, and modern crypto analytics dashboards, but with a more premium and polished UI.
+
+IMPORTANT:
+- Do not place explorer tables, explorer stats, or blockchain search widgets on the homepage
+- The explorer must exist only on the dedicated /explorer page
+- The homepage should only promote the explorer with a short preview card or CTA button if needed
+
+EXPLORER PAGE REQUIREMENTS:
+
+1. HEADER / TOP SECTION
+- Title: "SpudChain Explorer"
+- Subtitle: "Track blocks, transactions, wallets, and tokens in real time"
+- Add a large global search bar
+- Search supports:
+  - wallet address
+  - transaction hash
+  - block number
+  - token contract
+
+2. LIVE OVERVIEW CARDS
+- Latest Block
+- Transactions Per Second
+- Gas Price
+- Total Transactions
+- Active Wallets
+- Add a small blinking "Live" status indicator
+
+3. MAIN DATA SECTIONS
+- Latest Blocks table
+- Latest Transactions table
+- Optional network activity chart
+- Clean tabs for:
+  - Transactions
+  - Blocks
+  - Tokens
+  - Validators
+  - Analytics
+
+4. DETAIL PAGES
+Create separate explorer detail routes:
+- /explorer/tx/[hash]
+- /explorer/address/[address]
+- /explorer/block/[number]
+- /explorer/token/[contract]
+
+Each detail page must look premium and structured like a real blockchain explorer product.
+
+5. DESIGN STYLE
+- Dark professional UI
+- Premium SaaS styling
+- Clean spacing
+- Rounded cards
+- Soft shadows
+- Blue/purple accent glow
+- Smooth hover states
+- Modern typography
+
+6. UX RULES
+- Copy buttons for hashes and addresses
+- Shortened values like 0x1234...abcd
+- Tooltips
+- Filters and pagination
+- Fully responsive on mobile and desktop
+
+7. HOMEPAGE CONNECTION
+- Add navbar link: Explorer
+- Add hero CTA button: Open Explorer
+- Add one small section on homepage that briefly introduces the explorer, but do not embed the actual explorer there
+
+OUTPUT:
+Build the explorer as a standalone, dedicated product page that feels separate from the homepage and works like a real blockchain explorer platform.
